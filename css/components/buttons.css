@@ -27,3 +27,7 @@
 .button__secondary:hover {
   background-color: #FFF;
 }
+
+.button__secondary:focus {
+  background-color: #FFF;
+}
