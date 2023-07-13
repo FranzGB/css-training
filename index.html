@@ -5,27 +5,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CSS Landing Page</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-  <header class="header">
+  <header class="header__main">
     <nav class="nav__bar">
       <div class="nav__logo__container">
-        <a href="#" class="nav__logo">CSS Landing Page</a>
+        <a href="#" class="nav__logo">
+          <img src="assets/logo.png" alt="Company Logo" class="nav__logo__img">
+        </a>
       </div>
-      <ul class="nav__list">
-        <li class="nav__item"><a href="#" class="nav__link">About us</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">How it works</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">FAQs</a></li>
-      </ul>
-      <div class="nav__btns">
-        <a href="#" class="nav__btn nav__btn__primary">Login</a>
-        <a href="#" class="nav__btn nav__btn__secondary">Sign up</a>
+      <div class="nav__menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#" class="nav__link">About us</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">How it works</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">FAQs</a></li>
+        </ul>
+        <div class="nav__button__group">
+          <a href="#" class="nav__button button__secondary">Login</a>
+          <a href="#" class="nav__button button__primary">Sign up</a>
+        </div>
       </div>
-      <div class="nav__toggle" id="nav-toggle">
-        <i class="">Burguer</i>
+      <div class="nav__toggle__button" id="nav-toggle">
+        <span class="fa fa-bars" aria-hidden="true"></span>
       </div>
     </nav>
   </header>
