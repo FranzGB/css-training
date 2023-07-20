@@ -1,0 +1,28 @@
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+@media screen and (min-width: 1024px) {
+  .hero__container {
+    flex-direction: row;
+  }
+}
+
+
+.hero__form {
+  display: flex;
+}
+
+.hero__input {
+  flex-grow: 1;
+  padding: 0.75rem 1rem;
+  border-radius: 0;
+}
+
+.hero__description {
+  margin: 1.5rem 0;
+}

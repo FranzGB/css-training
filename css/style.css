@@ -1,7 +1,8 @@
+@import 'settings/fonts.css';
 @import 'layout/layout.css';
 @import 'components/navbar/index.css';
-@import 'settings/fonts.css';
 @import 'components/buttons.css';
+@import 'components/hero.css';
 
 html,
 body {
@@ -17,4 +18,15 @@ button {
   font-family: 'Neue Machina', sans-serif;
   font-size: 18px;
   box-sizing: border-box;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 1024px) {
+  h2 {
+    font-size: 70px;
+  }
 }
