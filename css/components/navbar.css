@@ -17,13 +17,40 @@
 .nav__toggle__button span {
   width: 3.25rem;
   font-size: 2rem;
-  padding: 0 0 0 0;
+  text-align: center;
+  padding: 0;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1024px) {
   .nav__toggle__button {
     display: none;
   }
+}
+
+.nav__toggle__button:focus+.nav__menu,
+.nav__toggle__button:focus-within+.nav__menu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: normal;
+  align-items: center;
+  background-color: #FFF;
+  padding: 1rem 1.25rem;
+  align-self: start;
+
+  .nav__list {
+    flex-direction: column;
+  }
+
+  .nav__button__group {
+    flex-direction: column;
+  }
+}
+
+.nav__toggle__button:focus,
+.nav__toggle__button:focus-within {
+  opacity: 0;
 }
 
 .nav__menu {
@@ -40,21 +67,15 @@
 }
 
 
-@media screen and (min-width: 1024px) {
-  .nav__list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
-  }
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
 }
 
 .nav__item {
   list-style: none;
-}
-
-.nav__item:hover {
-  background-color: #FFF;
 }
 
 .nav__link {
@@ -62,6 +83,11 @@
   color: #000;
   font-weight: 400;
   padding: 0.75rem 1.25rem;
+
+}
+
+.nav__link:hover {
+  background-color: #FFF;
 }
 
 .nav__button__group {
@@ -71,5 +97,4 @@
 
 .nav__button {
   margin: 0 1.25rem;
-  text-decoration: none;
 }
