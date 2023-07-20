@@ -12,6 +12,19 @@
   }
 }
 
+.hero__title {
+  letter-spacing: -1.4px;
+}
+
+@media screen and (min-width: 1024px) {
+  .hero__title {
+    letter-spacing: -4px;
+  }
+}
+
+.hero__description {
+  line-height: 26px;
+}
 
 .hero__form {
   display: flex;
@@ -23,6 +36,19 @@
   border-radius: 0;
 }
 
-.hero__description {
-  margin: 1.5rem 0;
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.hero__image {
+  max-width: 332px;
+  margin: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .hero__image {
+    max-width: 550px;
+  }
 }
