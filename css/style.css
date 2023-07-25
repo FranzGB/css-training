@@ -1,5 +1,5 @@
 @import 'layout/layout.css';
-@import 'components/navbar.css';
+@import 'components/navbar/index.css';
 @import 'settings/fonts.css';
 @import 'components/buttons.css';
 

@@ -1,0 +1,18 @@
+.nav__button__group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__toggle__button:focus+.nav__menu .nav__button__group,
+.nav__toggle__button:focus-within+.nav__menu .nav__button__group {
+  flex-direction: column;
+}
+
+.nav__button {
+  margin: 0 1.25rem;
+}
+
+.nav__toggle__button:focus+.nav__menu .nav__button,
+.nav__toggle__button:focus-within+.nav__menu .nav__button {
+  margin: 0.25rem 0;
+}

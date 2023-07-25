@@ -6,14 +6,11 @@
   cursor: pointer;
 }
 
-.button__primary:hover {
-  background-color: #F0F0F0;
-  color: #000;
-}
-
+.button__primary:hover,
 .button__primary:focus {
-  background-color: #F0F0F0;
+  background-color: #FFF;
   color: #000;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .button__secondary {
@@ -24,10 +21,8 @@
   cursor: pointer;
 }
 
-.button__secondary:hover {
-  background-color: #FFF;
-}
-
+.button__secondary:hover,
 .button__secondary:focus {
   background-color: #FFF;
+  transition: background-color 0.3s ease-in-out;
 }

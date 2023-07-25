@@ -1,0 +1,23 @@
+.nav__menu {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .nav__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.nav__toggle__button:focus+.nav__menu,
+.nav__toggle__button:focus-within+.nav__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: normal;
+  align-items: center;
+  background-color: #FFF;
+  align-self: start;
+  padding: 1rem 1.25rem;
+}

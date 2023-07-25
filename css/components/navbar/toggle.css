@@ -1,0 +1,20 @@
+.nav__toggle__button {
+  border: none;
+}
+
+.nav__toggle__button span {
+  width: 3.25rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .nav__toggle__button {
+    display: none;
+  }
+}
+
+.nav__toggle__button:focus,
+.nav__toggle__button:focus-within {
+  opacity: 0;
+}
