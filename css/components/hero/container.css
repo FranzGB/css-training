@@ -1,0 +1,19 @@
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+@media screen and (min-width: 1024px) {
+  .hero__container {
+    flex-direction: row;
+  }
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
