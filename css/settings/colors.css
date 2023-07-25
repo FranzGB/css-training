@@ -1,5 +1,29 @@
-:root {
+[data-theme="main"] {
   --main-color: #f0f0f0;
   --secondary-color: #000;
   --tertiary-color: #FFF;
+  --black-text: #000;
+  --white-text: #FFF;
+}
+
+/* [data-theme="dark"] {
+  --main-color: #0f0f0f;
+  --secondary-color: #FFF;
+  --tertiary-color: #000;
+} */
+
+[data-theme="red"] {
+  --main-color: #e46060;
+  --secondary-color: #620000;
+  --tertiary-color: #F8ADA8;
+  --black-text: #000;
+  --white-text: #FFF;
+}
+
+[data-theme="yellow"] {
+  --main-color: #fdffb7;
+  --secondary-color: #000;
+  --tertiary-color: #FFF;
+  --black-text: #000;
+  --white-text: #FFF;
 }
