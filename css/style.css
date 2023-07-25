@@ -1,32 +1,7 @@
+@import 'settings/all.css';
 @import 'settings/fonts.css';
+@import 'settings/elements.css';
 @import 'layout/layout.css';
 @import 'components/navbar/index.css';
+@import 'components/hero/index.css';
 @import 'components/buttons.css';
-@import 'components/hero.css';
-
-html,
-body {
-  background-color: #f0f0f0;
-  height: 100vh;
-  margin: 0;
-}
-
-body,
-input,
-textarea,
-button {
-  font-family: 'Neue Machina', sans-serif;
-  font-size: 18px;
-  box-sizing: border-box;
-}
-
-h2 {
-  font-size: 28px;
-  font-weight: 400;
-}
-
-@media screen and (min-width: 1024px) {
-  h2 {
-    font-size: 70px;
-  }
-}

@@ -1,0 +1,12 @@
+.hero__pay__methods {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.25rem 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .hero__pay__methods {
+    max-width: 332px;
+  }
+}

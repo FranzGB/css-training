@@ -1,0 +1,10 @@
+h2 {
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 64rem) {
+  h2 {
+    font-size: 4.375rem;
+  }
+}
