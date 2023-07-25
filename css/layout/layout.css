@@ -1,0 +1,25 @@
+.header__main {
+  margin: auto;
+  margin-top: 1.25rem;
+  width: 100%;
+  max-width: 332px;
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .header__main {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header__main {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .header__main {
+    max-width: 2280px;
+  }
+}

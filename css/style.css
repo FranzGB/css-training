@@ -1,0 +1,20 @@
+@import 'layout/layout.css';
+@import 'components/navbar/index.css';
+@import 'settings/fonts.css';
+@import 'components/buttons.css';
+
+html,
+body {
+  background-color: #f0f0f0;
+  height: 100vh;
+  margin: 0;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: 'Neue Machina', sans-serif;
+  font-size: 18px;
+  box-sizing: border-box;
+}
