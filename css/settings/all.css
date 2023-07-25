@@ -1,0 +1,15 @@
+html,
+body {
+  background-color: #f0f0f0;
+  height: 100vh;
+  margin: 0;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: 'Neue Machina', sans-serif;
+  font-size: 1.125rem;
+  box-sizing: border-box;
+}
