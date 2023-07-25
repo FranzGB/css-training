@@ -1,6 +1,6 @@
 .button__primary {
-  background-color: #000;
-  color: #fff;
+  background-color: var(--secondary-color);
+  color: #FFF;
   border: none;
   padding: 0.75rem 2rem;
   cursor: pointer;
@@ -8,13 +8,13 @@
 
 .button__primary:hover,
 .button__primary:focus {
-  background-color: #FFF;
+  background-color: var(--tertiary-color);
   color: #000;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .button__secondary {
-  background-color: #F0F0F0;
+  background-color: var(--main-color);
   color: #000;
   border: none;
   padding: 0.75rem 2rem;
@@ -23,6 +23,6 @@
 
 .button__secondary:hover,
 .button__secondary:focus {
-  background-color: #FFF;
+  background-color: var(--tertiary-color);
   transition: background-color 0.3s ease-in-out;
 }

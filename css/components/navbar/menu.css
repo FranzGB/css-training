@@ -17,7 +17,7 @@
   flex-direction: column;
   justify-content: normal;
   align-items: center;
-  background-color: #FFF;
+  background-color: var(--tertiary-color);
   align-self: start;
   padding: 1rem 1.25rem;
 }
