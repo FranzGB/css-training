@@ -1,31 +1,33 @@
+@import 'variables.css';
+
 [data-theme="main"] {
-  --main-color: #f0f0f0;
-  --secondary-color: #000;
-  --tertiary-color: #FFF;
-  --main-text-color: #000;
-  --secondary-text-color: #FFF;
+  --main-color: var(--light-grey);
+  --secondary-color: var(--black);
+  --tertiary-color: var(--white);
+  --main-text-color: var(--black);
+  --secondary-text-color: var(--white);
 }
 
 [data-theme="dark"] {
-  --main-color: #434c5e;
-  --secondary-color: #313745;
-  --tertiary-color: #0f0f0f;
-  --main-text-color: #FFF;
-  --secondary-text-color: #f0f0fb;
+  --main-color: var(--dark-blue);
+  --secondary-color: var(--dark-blue-2);
+  --tertiary-color: var(--dark-grey);
+  --main-text-color: var(--white);
+  --secondary-text-color: var(--light-grey);
 }
 
 [data-theme="red"] {
-  --main-color: #dd6969;
-  --secondary-color: #620000;
-  --tertiary-color: #F8ADA8;
-  --main-text-color: #000;
-  --secondary-text-color: #FFF;
+  --main-color: var(--brick-red);
+  --secondary-color: var(--dark-red);
+  --tertiary-color: var(--light-brick-red);
+  --main-text-color: var(--black);
+  --secondary-text-color: var(--white);
 }
 
 [data-theme="green"] {
-  --main-color: #ccd5ae;
-  --secondary-color: #344e41;
-  --tertiary-color: #e9edc9;
-  --main-text-color: #bc5c08;
-  --secondary-text-color: #FFF;
+  --main-color: var(--lime-green);
+  --secondary-color: var(--dark-green);
+  --tertiary-color: var(--light-lime-green);
+  --main-text-color: var(--brick-red);
+  --secondary-text-color: var(--white);
 }
