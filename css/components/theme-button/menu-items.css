@@ -1,0 +1,15 @@
+.theme__close {
+  padding: 1rem;
+}
+
+.theme__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-inline-start: 0;
+  justify-content: space-evenly;
+}
+
+.theme__item {
+  padding: 1rem;
+}

@@ -1,7 +1,21 @@
 .theme__overlay {
-  display: none;
+  position: fixed;
+  visibility: hidden;
+  border: .0625rem solid var(--secondary-text-color);
+  background-color: var(--secondary-color);
+  border-radius: .25rem;
+  padding: 0rem;
+  right: 1rem;
+  bottom: 1rem;
+  opacity: 0;
 }
 
 .theme__button[type="menu"]:active+.theme__overlay {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  visibility: visible;
+  width: fit-content;
+  height: fit-content;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
 }

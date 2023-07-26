@@ -1,0 +1,13 @@
+.theme__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: .0625rem solid var(--secondary-text-color);
+  padding: 0 1rem;
+}
+
+.theme__title {
+  font-size: 1.5rem;
+  color: var(--secondary-text-color);
+}
