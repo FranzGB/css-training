@@ -1,5 +1,6 @@
 .theme__close {
-  padding: 1rem;
+  padding: 0.5rem;
+  margin-inline-start: 1rem;
 }
 
 .theme__list {
@@ -12,4 +13,13 @@
 
 .theme__item {
   padding: 1rem;
+}
+
+.theme__button__item {
+  background-color: var(--tertiary-color);
+  padding: 0.5rem 0.75rem;
+  margin-inline-start: 1rem;
+  margin-inline-end: 1rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
 }

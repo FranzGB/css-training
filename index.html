@@ -12,32 +12,6 @@
 </head>
 
 <body>
-  <section class="theme__container">
-    <button class="button__primary theme__button" id="theme__button" type="menu">
-      🎨
-    </button>
-    <menu class="theme__overlay" id="theme__overlay">
-      <div class="theme__header">
-        <h3 class="theme__title">Choose your theme:</h3>
-        <button class="theme__close button__secondary" id="theme__close" type="menu" tabindex="0">
-          ❌
-        </button>
-      </div>
-      <ul class="theme__list">
-        <li class="theme__item">
-          <button class="theme__button__item button__secondary" type="submit">🔴</button>
-        </li>
-        <li class="theme__item">
-          <button class="theme__button__item button__secondary" type="submit">🔵</button>
-        <li class="theme__item">
-          <button class="theme__button__item button__secondary" type="submit">🟢</button>
-        </li>
-        <li class="theme__item">
-          <button class="theme__button__item button__secondary" type="submit">⚫️</button>
-        </li>
-      </ul>
-    </menu>
-  </section>
   <header class=" header__main">
     <nav class="nav__bar">
       <div class="nav__logo__container">
@@ -82,6 +56,32 @@
         <img src="assets/hero.png" alt="Hero Image" class="hero__image">
       </div>
     </div>
+  </section>
+  <section class="theme__container">
+    <button class="button__primary theme__button" id="theme__button" type="menu">
+      🎨
+    </button>
+    <menu class="theme__overlay" id="theme__overlay">
+      <div class="theme__header">
+        <h3 class="theme__title">Choose your theme:</h3>
+        <button class="theme__close button__secondary" id="theme__close" type="menu" tabindex="0">
+          ❌
+        </button>
+      </div>
+      <ul class="theme__list">
+        <li class="theme__item">
+          <button id="red-theme-button" class="theme__button__item" type="button">🔴</button>
+        </li>
+        <li class="theme__item">
+          <button id="blue-theme-button" class="theme__button__item" type="button">🔵</button>
+        <li class="theme__item">
+          <button id="green-theme-button" class="theme__button__item" type="button">🟢</button>
+        </li>
+        <li class="theme__item">
+          <button id="dark-theme-button" class="theme__button__item" type="button">⚫️</button>
+        </li>
+      </ul>
+    </menu>
   </section>
 </body>
 
