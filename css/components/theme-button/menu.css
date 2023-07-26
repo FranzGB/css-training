@@ -1,0 +1,7 @@
+.theme__overlay {
+  display: none;
+}
+
+.theme__button[type="menu"]:active+.theme__overlay {
+  display: block;
+}

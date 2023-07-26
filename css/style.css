@@ -2,7 +2,10 @@
 @import 'settings/colors.css';
 @import 'settings/fonts.css';
 @import 'settings/elements.css';
+
 @import 'layout/layout.css';
+
 @import 'components/navbar/index.css';
 @import 'components/hero/index.css';
 @import 'components/buttons.css';
+@import 'components/theme-button/index.css';
