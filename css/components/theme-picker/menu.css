@@ -1,4 +1,4 @@
-.theme__overlay {
+.theme__menu {
   position: fixed;
   visibility: hidden;
   width: fit-content;
@@ -12,7 +12,7 @@
   opacity: 0;
 }
 
-.theme__button[type="menu"]:active+.theme__overlay {
+.theme__menu--active {
   display: flex;
   flex-direction: column;
   visibility: visible;

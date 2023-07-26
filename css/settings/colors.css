@@ -31,3 +31,11 @@
   --main-text-color: var(--brick-red);
   --secondary-text-color: var(--white);
 }
+
+[data-theme="blue"] {
+  --main-color: var(--light-blue);
+  --secondary-color: var(--dark-purple);
+  --tertiary-color: var(--light-green);
+  --main-text-color: var(--dark-grey);
+  --secondary-text-color: var(--lime-green);
+}
