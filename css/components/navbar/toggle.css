@@ -1,5 +1,6 @@
 .nav__toggle__button {
   border: none;
+  background-color: inherit;
 }
 
 .nav__toggle__button span {

@@ -1,0 +1,21 @@
+.theme__menu {
+  position: fixed;
+  visibility: hidden;
+  width: fit-content;
+  height: fit-content;
+  border: .0625rem solid var(--secondary-text-color);
+  background-color: var(--secondary-color);
+  border-radius: .25rem;
+  padding: 0rem;
+  right: 1rem;
+  bottom: 1rem;
+  opacity: 0;
+}
+
+.theme__menu--active {
+  display: flex;
+  flex-direction: column;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
