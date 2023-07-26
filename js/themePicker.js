@@ -18,34 +18,48 @@ function setTheme(themeName) {
 }
 
 function toggleMenus() {
-  themePickerMenu.classList.toggle("theme__menu--active");
-  themePickerButton.classList.toggle("theme__button--inactive");
+  if (themePickerMenu && themePickerButton) {
+    themePickerMenu.classList.toggle("theme__menu--active");
+    themePickerButton.classList.toggle("theme__button--inactive");
+  }
 }
 
-themePickerButton.addEventListener("click", () => {
-  toggleMenus();
-});
+if (themePickerButton) {
+  themePickerButton.addEventListener("click", () => {
+    toggleMenus();
+  });
+}
 
-themePickerCloseButton.addEventListener("click", () => {
-  toggleMenus();
-});
+if (themePickerCloseButton) {
+  themePickerCloseButton.addEventListener("click", () => {
+    toggleMenus();
+  });
+}
 
-redThemeButton.addEventListener("click", () => {
-  setTheme("red");
-  return toggleMenus();
-});
+if (redThemeButton) {
+  redThemeButton.addEventListener("click", () => {
+    setTheme("red");
+    return toggleMenus();
+  });
+}
 
-blueThemeButton.addEventListener("click", () => {
-  setTheme("blue");
-  return toggleMenus();
-});
+if (blueThemeButton) {
+  blueThemeButton.addEventListener("click", () => {
+    setTheme("blue");
+    return toggleMenus();
+  });
+}
 
-greenThemeButton.addEventListener("click", () => {
-  setTheme("green");
-  return toggleMenus();
-});
+if (greenThemeButton) {
+  greenThemeButton.addEventListener("click", () => {
+    setTheme("green");
+    return toggleMenus();
+  });
+}
 
-darkThemeButton.addEventListener("click", () => {
-  setTheme("dark");
-  return toggleMenus();
-});
+if (darkThemeButton) {
+  darkThemeButton.addEventListener("click", () => {
+    setTheme("dark");
+    return toggleMenus();
+  });
+}
