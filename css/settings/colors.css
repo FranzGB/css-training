@@ -1,0 +1,41 @@
+@import 'variables.css';
+
+[data-theme="main"] {
+  --main-color: var(--light-grey);
+  --secondary-color: var(--black);
+  --tertiary-color: var(--white);
+  --main-text-color: var(--black);
+  --secondary-text-color: var(--white);
+}
+
+[data-theme="dark"] {
+  --main-color: var(--dark-blue);
+  --secondary-color: var(--dark-blue-2);
+  --tertiary-color: var(--dark-grey);
+  --main-text-color: var(--white);
+  --secondary-text-color: var(--light-grey);
+}
+
+[data-theme="red"] {
+  --main-color: var(--brick-red);
+  --secondary-color: var(--dark-red);
+  --tertiary-color: var(--light-brick-red);
+  --main-text-color: var(--black);
+  --secondary-text-color: var(--white);
+}
+
+[data-theme="green"] {
+  --main-color: var(--lime-green);
+  --secondary-color: var(--dark-green);
+  --tertiary-color: var(--light-lime-green);
+  --main-text-color: var(--brick-red);
+  --secondary-text-color: var(--white);
+}
+
+[data-theme="blue"] {
+  --main-color: var(--light-blue);
+  --secondary-color: var(--dark-purple);
+  --tertiary-color: var(--light-green);
+  --main-text-color: var(--dark-grey);
+  --secondary-text-color: var(--lime-green);
+}

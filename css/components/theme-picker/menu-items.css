@@ -1,0 +1,46 @@
+.theme__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-inline-start: 0;
+  justify-content: space-evenly;
+}
+
+.theme__item {
+  padding: 1rem;
+}
+
+.theme__button__item {
+  background-color: var(--tertiary-color);
+  padding: 0.5rem 0.75rem;
+  margin-inline-start: 1rem;
+  margin-inline-end: 1rem;
+  border-radius: 0.75rem;
+  border: none;
+  cursor: pointer;
+}
+
+.theme__button__item:hover,
+.theme__button__item:focus {
+  animation: wiggle 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+}
+
+@keyframes wiggle {
+
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(10deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  75% {
+    transform: rotate(5deg);
+  }
+}

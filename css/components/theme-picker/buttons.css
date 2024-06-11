@@ -1,0 +1,26 @@
+.theme__button {
+  position: fixed;
+  display: block;
+  bottom: 1rem;
+  right: 1rem;
+  border-radius: 50%;
+  padding: 0.75rem 0.6875rem;
+  z-index: 1000;
+}
+
+.theme__button--inactive {
+  display: none;
+}
+
+.theme__close {
+  padding: 0.5rem;
+  margin-inline-start: 1rem;
+  background-color: var(--secondary-color);
+  border-radius: 0.75rem;
+  color: var(--secondary-text-color);
+}
+
+.theme__close:hover,
+.theme__close:focus {
+  background-color: var(--tertiary-color);
+}
